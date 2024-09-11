@@ -1,0 +1,25 @@
+<c-card class="mb-4">
+  <c-card-header>
+    <strong>Hello, Welcome to the interview! Your IP address is: {{myIPAddress}}</strong>
+  </c-card-header>
+  <c-card-body>
+    <form cForm>
+      <div class="mb-3">
+        <label cLabel for="productName">Product Name</label>
+        <input cFormControl id="productName" name="productName" placeholder="IPhone 4" type="text"/>
+      </div>
+      <div class="mb-3">
+        <label cLabel for="firstReleased">First Released</label>
+        <input cFormControl id="firstReleased" name="firstReleased"  placeholder="24 June 2010" type="text"/>
+      </div>
+      <div class="mb-3">
+        <label cLabel for="price">Price</label>
+        <input cFormControl id="price" name="price"  placeholder="$599" type="text"/>
+      </div>
+      <div class="mb-3">
+        <label cLabel for="cpuModel">CPU Model</label>
+        <input cFormControl id="cpuModel" name="cpuModel"  placeholder="ARM Cortex-A8" type="text"/>
+      </div>
+    </form>
+  </c-card-body>
+</c-card>
