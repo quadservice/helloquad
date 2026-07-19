@@ -15,7 +15,7 @@ import {
   ProgressComponent,
   RowComponent,
   TableDirective,
-  TextColorDirective, FormDirective, FormLabelDirective, FormControlDirective
+  TextColorDirective, FormDirective, FormLabelDirective, FormControlDirective, ButtonDirective
 } from '@coreui/angular';
 import { ChartjsComponent } from '@coreui/angular-chartjs';
 import { IconDirective } from '@coreui/icons-angular';
@@ -28,7 +28,7 @@ import { CommonService } from '../../service/common.service';
   templateUrl: 'dashboard.component.html',
   styleUrls: ['dashboard.component.scss'],
   standalone: true,
-  imports: [WidgetsDropdownComponent, TextColorDirective, CardComponent, CardBodyComponent, RowComponent, ColComponent, IconDirective, FormsModule, ReactiveFormsModule, ButtonGroupComponent, FormCheckLabelDirective, ChartjsComponent, NgStyle, CardFooterComponent, GutterDirective, ProgressBarDirective, ProgressComponent, WidgetsBrandComponent, CardHeaderComponent, TableDirective, AvatarComponent, FormDirective, FormLabelDirective, FormControlDirective]
+  imports: [WidgetsDropdownComponent, TextColorDirective, CardComponent, CardBodyComponent, RowComponent, ColComponent, IconDirective, FormsModule, ReactiveFormsModule, ButtonGroupComponent, FormCheckLabelDirective, ChartjsComponent, NgStyle, CardFooterComponent, GutterDirective, ProgressBarDirective, ProgressComponent, WidgetsBrandComponent, CardHeaderComponent, TableDirective, AvatarComponent, FormDirective, FormLabelDirective, FormControlDirective, ButtonDirective]
 })
 export class DashboardComponent implements OnInit {
   myIPAddress: string="";
